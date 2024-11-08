@@ -63,7 +63,7 @@ const Traits = () => {
             <div className="traitsContainer">
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\handshake.png" alt="Lojalny" />
+                        <img src="public\static\Images\Icons\Traits\handshake.png" alt="Lojalny" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>LOJALNY</p>
@@ -72,7 +72,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\lantern.png" alt="Pomysłowy" />
+                        <img src="public\static\Images\Icons\Traits\lantern.png" alt="Pomysłowy" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>POMYSŁOWY</p>
@@ -81,7 +81,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\tree.png" alt="Rodzinny" />
+                        <img src="public\static\Images\Icons\Traits\tree.png" alt="Rodzinny" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>RODZINNY</p>
@@ -90,7 +90,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\hourglass.png" alt="Zdyscyplinowany" />
+                        <img src="public\static\Images\Icons\Traits\hourglass.png" alt="Zdyscyplinowany" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>ZDYSCYPLINOWANY</p>
@@ -99,7 +99,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\fist.png" alt="Zdeterminowany" />
+                        <img src="public\static\Images\Icons\Traits\fist.png" alt="Zdeterminowany" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>ZDETERMINOWANY</p>
@@ -108,7 +108,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\lute.png" alt="Bard" />
+                        <img src="public\static\Images\Icons\Traits\lute.png" alt="Bard" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>BARD</p>
@@ -117,7 +117,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\door.png" alt="Otwarty" />
+                        <img src="public\static\Images\Icons\Traits\door.png" alt="Otwarty" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>OTWARTY</p>
@@ -126,7 +126,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\knight.png" alt="Rycerski" />
+                        <img src="public\static\Images\Icons\Traits\knight.png" alt="Rycerski" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>RYCERSKI</p>
@@ -135,7 +135,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\money-bag.png" alt="Handlowiec" />
+                        <img src="public\static\Images\Icons\Traits\money-bag.png" alt="Handlowiec" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>HANDLOWIEC</p>
@@ -144,7 +144,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\hourglass.png" alt="Dokładny" />
+                        <img src="public\static\Images\Icons\Traits\search.png" alt="Dokładny" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>DOKŁADNY</p>
@@ -153,7 +153,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\bowl.png" alt="Asceta" />
+                        <img src="public\static\Images\Icons\Traits\bowl.png" alt="Asceta" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>ASCETA</p>
@@ -162,7 +162,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\candle.png" alt="Teolog" />
+                        <img src="public\static\Images\Icons\Traits\candle.png" alt="Teolog" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>TEOLOG</p>
@@ -171,7 +171,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\parchment.png" alt="Sumienny" />
+                        <img src="public\static\Images\Icons\Traits\parchment.png" alt="Sumienny" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>SUMIENNY</p>
@@ -180,7 +180,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\owl.png" alt="Mądry" />
+                        <img src="public\static\Images\Icons\Traits\owl.png" alt="Mądry" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>MĄDRY</p>
@@ -189,7 +189,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\treasure-map.png" alt="Podróżnik" />
+                        <img src="public\static\Images\Icons\Traits\treasure-map.png" alt="Podróżnik" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>PODRÓŻNIK</p>
@@ -198,7 +198,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\tool-box.png" alt="Zaradny" />
+                        <img src="public\static\Images\Icons\Traits\tool-box.png" alt="Zaradny" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>ZARADNY</p>
@@ -207,7 +207,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\sword.png" alt="Waleczny" />
+                        <img src="public\static\Images\Icons\Traits\sword.png" alt="Waleczny" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>WALECZNY</p>
@@ -216,7 +216,7 @@ const Traits = () => {
                 </div>
                 <div className="traitOption" onClick={handleTrait}>
                     <div className="traitLogo">
-                        <img src="src\assets\Icons\Traits\lance.png" alt="Turniejowicz" />
+                        <img src="public\static\Images\Icons\Traits\lance.png" alt="Turniejowicz" />
                     </div>
                     <div className="traitTexts">
                         <p className='traitTitle'>TURNIEJOWICZ</p>
