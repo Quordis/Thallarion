@@ -1,0 +1,115 @@
+.religion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+    scrollbar-width: none;
+
+    p {
+        color: yellow;
+        font-size: 12px;
+    }
+
+    form {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        overflow-y: auto;
+
+        label {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 400px;
+            background-color: rgba(18, 18, 18, 0.5);
+            border: 2px solid transparent;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+            transition: 0.4s;
+            cursor: pointer;
+
+            input {
+                display: none;
+            }
+
+            img {
+                filter: saturate(0) opacity(0.5);
+                position: absolute;
+                top: 15%;
+                transition: 0.4s;
+            }
+
+            .religionTitle {
+                background-color: rgba(18, 18, 18, 0.5);
+                border-radius: 5px;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+
+                h2 {
+                    color: #95B6FF;
+                }
+
+                h4 {
+                    color: #729EFF;
+                }
+            }
+
+            .text {
+                height: 100%;
+                padding: 15px;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+                overflow-y: auto;
+                scrollbar-width: none;
+
+                p {
+                    font-size: 14px;
+                    color: white;
+                }
+            }
+        }
+
+        label:hover, label.active {
+            border: 2px solid #95B6FF;
+
+            img {
+                filter: saturate(1) opacity(1);
+                animation: logo 2s infinite cubic-bezier(0.47, 0, 0.745, 0.715);
+                animation-delay: 1s;
+            }
+
+            .text {
+                background-color: rgba(18, 18, 18, 0.5);
+            }
+        }
+    }
+}
+
+@keyframes logo {
+    0% {
+        filter: saturate(1);
+    }
+    25% {
+        filter: saturate(1.2);
+    }
+    40% {
+        filter: saturate(1.1);
+    }
+    50% {
+        filter: saturate(1.5) brightness(105%) contrast(1.05);
+    }
+    75% {
+        filter: saturate(1.2);
+    }
+    90% {
+        filter: saturate(1.1);
+    }
+    100% {
+        filter: saturate(1);
+    }
+}

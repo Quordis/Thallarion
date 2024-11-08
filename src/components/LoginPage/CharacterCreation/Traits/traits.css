@@ -1,0 +1,77 @@
+.traits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+
+    p:not(.traitTitle, .traitDescription) {
+        color: yellow;
+        font-size: 12px;
+    }
+
+    span {
+        padding: 5px 0px;
+        color: #95B6FF;
+    }
+
+    .traitsContainer {
+        max-width: 915px;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        flex-wrap: wrap;
+        overflow-y: auto;
+
+        .traitOption {
+            width: 300px;
+            height: 65px;
+            background-color: rgba(18, 18, 18, 0.5);
+            border-radius: 5px;
+            display: flex;
+            transition: 0.4s;
+            cursor: pointer;
+
+            .traitLogo {
+                width: 65px;
+                height: 65px;
+                background-color: rgba(18, 18, 18, 0.5);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+            .traitTexts {
+                padding: 0px 5px;
+                
+                .traitTitle {
+                    font-weight: 800;
+                    transition: 0.4s;
+                }
+
+                .traitDescription {
+                    font-size: 12px;
+                    color: #60FF95;
+                    transition: 0.4s;
+                }
+            }
+        }
+
+        .traitOption:hover, .traitOption.active {
+            background-color: #729EFF;
+
+            .traitTitle {
+                color: rgba(18, 18, 18, 0.5);
+            }
+
+            .traitDescription {
+                color: rgba(18, 18, 18, 0.5);
+            }
+        }
+    }
+}
