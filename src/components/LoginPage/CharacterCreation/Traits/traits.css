@@ -62,7 +62,11 @@
             }
         }
 
-        .traitOption:hover, .traitOption.active {
+        .traitOption:hover {
+            background-color: rgb(80, 80, 80);
+        }
+        
+        .traitOption.active {
             background-color: #729EFF;
 
             .traitTitle {
