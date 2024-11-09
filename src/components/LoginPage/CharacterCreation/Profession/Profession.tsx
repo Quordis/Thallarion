@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react'
 import './profession.css'
 import { useCharacterCreationStore } from '../../../../lib/characterCreationStore'
-
+import kaplan from '/static/Images/Creation/kaplan.jpeg';
+import zarzadca from '/static/Images/Creation/zarzadca.jpeg';
+import dworzanin from '/static/Images/Creation/dworzanin.jpeg';
+import rycerz from '/static/Images/Creation/rycerz.jpeg';
 const Profession = () => {
     const [radioValue, setRadioValue] = useState('');
 
@@ -23,7 +26,7 @@ const Profession = () => {
             <form>
                 <label htmlFor="priest" className={'professionLabel ' + (radioValue == "Kapłan" ? 'active' : '')}>
                     <input type="radio" name="profession" id="priest" value="Kapłan" onClick={handleRadioValue} />
-                    <div className="professionImage priest">
+                    <div className="professionImage priest" style={{backgroundImage: `linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(${kaplan})`}}>
                         <div className="text">
                         <p className="positive">+2</p><p> inteligencji</p><br />
                         <p>Możliwość uświęcania </p><p className="gold">artefaktów</p><br />
@@ -35,7 +38,7 @@ const Profession = () => {
                 </label>
                 <label htmlFor="steward" className={'professionLabel ' + (radioValue == "Zarządca" ? 'active' : '')}>
                     <input type="radio" name="profession" id="steward" value="Zarządca" onClick={handleRadioValue} />
-                    <div className="professionImage steward">
+                    <div className="professionImage steward" style={{backgroundImage: `linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(${zarzadca})`}}>
                         <div className="text">
                         <p className="positive">+2</p><p> zarządzania</p><br />
                         <p className="positive">+5%</p> <p>przychodu z podatków</p><br />
@@ -47,7 +50,7 @@ const Profession = () => {
                 </label>
                 <label htmlFor="courtier" className={'professionLabel ' + (radioValue == "Dworzanin" ? 'active' : '')}>
                     <input type="radio" name="profession" id="courtier" value="Dworzanin" onClick={handleRadioValue} />
-                    <div className="professionImage courtier">
+                    <div className="professionImage courtier" style={{backgroundImage: `linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(${dworzanin})`}}>
                         <div className="text">
                         <p className="positive">+2</p><p> charyzmy</p><br />
                         <p className="positive">+10%</p><p> skuteczności intryg</p><br />
@@ -59,7 +62,7 @@ const Profession = () => {
                 </label>
                 <label htmlFor="knight" className={'professionLabel ' + (radioValue == "Rycerz" ? 'active' : '')}>
                     <input type="radio" name="profession" id="knight" value="Rycerz" onClick={handleRadioValue} />
-                    <div className="professionImage knight">
+                    <div className="professionImage knight" style={{backgroundImage: `linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(${rycerz})`}}>
                         <div className="text">
                         <p className="positive">+3</p><p> wojskowości</p><br />
                         <p className="positive">-5%</p><p> utrzymania wojska</p><br />
