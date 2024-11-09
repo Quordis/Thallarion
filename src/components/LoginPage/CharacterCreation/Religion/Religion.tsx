@@ -23,7 +23,7 @@ const Religion = () => {
             <form>
                 <label htmlFor="choiceElementis" className={'religionLabel ' + (radioValue == "Elementis" ? 'active' : '')}>
                     <input type="radio" name="religionOption" id="choiceElementis" value="Elementis" onClick={handleRadioValue} />
-                    <img src="public\static\Images\Creation\Elementis-removebg-preview.png" alt="Elementis" />
+                    <img src="static\Images\Creation\Elementis-removebg-preview.png" alt="Elementis" />
                     <div className="religionTitle">
                         <h2>Elementis</h2>
                         <h4>Panteon</h4>
@@ -36,7 +36,7 @@ const Religion = () => {
                 </label>
                 <label htmlFor="choiceMortave" className={'religionLabel ' + (radioValue == "Mortave" ? 'active' : '')}>
                     <input type="radio" name="religionOption" id="choiceMortave" value="Mortave" onClick={handleRadioValue} />
-                    <img src="public\static\Images\Creation\Mortave-removebg-preview.png" alt="Mortave" />
+                    <img src="static\Images\Creation\Mortave-removebg-preview.png" alt="Mortave" />
                     <div className="religionTitle">
                         <h2>Mortave</h2>
                         <h4>Prawiara</h4>
@@ -49,7 +49,7 @@ const Religion = () => {
                 </label>
                 <label htmlFor="choiceAitheris" className={'religionLabel ' + (radioValue == "Aitheris" ? 'active' : '')}>
                     <input type="radio" name="religionOption" id="choiceAitheris" value="Aitheris" onClick={handleRadioValue} />
-                    <img src="public\static\Images\Creation\Aitheris-removebg-preview.png" alt="Aitheris" />
+                    <img src="static\Images\Creation\Aitheris-removebg-preview.png" alt="Aitheris" />
                     <div className="religionTitle">
                         <h2>Aitheris</h2>
                         <h4>Panteon</h4>

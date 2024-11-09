@@ -61,7 +61,7 @@ const BasicInfo = () => {
                 <div className="avatarContainer">
                     <input type="file" name="avatarCreationInput" id="avatarCreationInput" style={{display: "none"}} onChange={handleAvatar} />
                     <label htmlFor="avatarCreationInput">
-                        <div className="avatar" ><img src={avatar.URL == "" ? "public\\static\\Images\\Icons\\user.png" : avatar.URL} alt="Avatar" /></div>Wgraj avatar
+                        <div className="avatar" ><img src={avatar.URL == "" ? "static\\Images\\Icons\\user.png" : avatar.URL} alt="Avatar" /></div>Wgraj avatar
                     </label>
                 </div>
                 <label htmlFor="firstName">Imię</label>
@@ -84,11 +84,11 @@ const BasicInfo = () => {
                 <div className="radioContainer">
                     <label htmlFor="radioMale" className='radioOption'>
                         <input type="radio" name='radioContainer' id='radioMale' value="M" onClick={handleRadio} />
-                        <div className={"maleContainer " + (radioChecked == 'M' ? 'active' : '')}><img src="public\static\Images\Icons\male.png" alt="Male" /></div>
+                        <div className={"maleContainer " + (radioChecked == 'M' ? 'active' : '')}><img src="static\Images\Icons\male.png" alt="Male" /></div>
                     </label>
                     <label htmlFor="radioFemale" className='radioOption'>
                         <input type="radio" name='radioContainer' id='radioFemale' value="F" onClick={handleRadio} />
-                        <div className={"femaleContainer " + (radioChecked == 'F' ? 'active' : '')}><img src="public\static\Images\Icons\femenine.png" alt="Female" /></div>
+                        <div className={"femaleContainer " + (radioChecked == 'F' ? 'active' : '')}><img src="static\Images\Icons\femenine.png" alt="Female" /></div>
                     </label>
                 </div>
             </form>
