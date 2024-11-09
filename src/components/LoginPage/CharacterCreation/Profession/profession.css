@@ -93,19 +93,19 @@
             }
 
             .professionImage.priest {
-                background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(static\\Images\\Creation\\kaplan.jpeg);
+                background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(public/static/Images/Creation/kaplan.jpeg);
             }
 
             .professionImage.steward {
-                background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(static\\Images\\Creation\\zarzadca.jpeg);
+                background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(static/Images/Creation/zarzadca.jpeg);
             }
 
             .professionImage.courtier {
-                background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(static\\Images\\Creation\\dworzanin.jpeg);
+                background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(static/Images/Creation/dworzanin.jpeg);
             }
 
             .professionImage.knight {
-                background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(static\\Images\\Creation\\rycerz.jpeg);
+                background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.9) 80%), url(static/Images/Creation/rycerz.jpeg);
             }
 
             .professionTitle {
