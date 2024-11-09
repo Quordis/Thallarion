@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 import './profession.css'
 import { useCharacterCreationStore } from '../../../../lib/characterCreationStore'
-import kaplan from '/static/Images/Creation/kaplan.jpeg';
-import zarzadca from '/static/Images/Creation/zarzadca.jpeg';
-import dworzanin from '/static/Images/Creation/dworzanin.jpeg';
-import rycerz from '/static/Images/Creation/rycerz.jpeg';
+import kaplan from '\\static\\Images\\Creation\\kaplan.jpeg';
+import zarzadca from '\\static\\Images\\Creation\\zarzadca.jpeg';
+import dworzanin from '\\static\\Images\\Creation\\dworzanin.jpeg';
+import rycerz from '\\static\\Images\\Creation\\rycerz.jpeg';
 const Profession = () => {
     const [radioValue, setRadioValue] = useState('');
 
