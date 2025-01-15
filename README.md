@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+# PL
+WCZESNA FAZA PROJEKTU
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Thallarion to gra internetowa oparta na wielu kultowych grach strategicznych z RP (RolePlaying) jako motywem przewodnim.
+Na potrzeby projektu, napisany został świat fantasy, w którym gracz piąłby się po szczeblach feudalnej drabiny.
 
-Currently, two official plugins are available:
+Na ten moment zaimplementowany jest jedynie system logowania i tworzenia postaci.
+Konto testowe:
+E-mail: Quordis@gmail.com
+Hasło: Wuwen2!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# EN
+EARLY PHASE OF THE PROJECT
 
-## Expanding the ESLint configuration
+Thallarion is an online game based on a number of cult strategy games with RP (RolePlaying) as a theme.
+For the project, a fantasy world was written in which the player would climb the rungs of the feudal ladder.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+At this point, only the login and character creation system is implemented.
+Test account:
+E-mail: Quordis@gmail.com
+Password: Wuwen2!
